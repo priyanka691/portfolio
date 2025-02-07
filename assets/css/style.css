@@ -2753,7 +2753,13 @@ E. Template Specific Elements
     h1, .ts-h1 {
         margin-bottom: 1.25rem;
     }
-
+    .ts-bubble-border .ts-title-rotate span
+    {
+        white-space: pre-wrap;
+    }
+    .w-70{
+        width: 100% !important;
+    }
     [class*="ts-column-count-"] {
         column-count: 1;
     }
@@ -2853,7 +2859,7 @@ E. Template Specific Elements
     .navbar.navbar-expand-sm .navbar-nav {
         align-items: center;
     }
-
+  
     .navbar.navbar-expand-sm .navbar-nav .nav-link {
         padding-top: 1rem;
         padding-bottom: 1rem;
@@ -2871,4 +2877,15 @@ E. Template Specific Elements
     .ts-carousel-centered .owl-nav .owl-prev {
         left: 2.5rem;
     }
+}
+.full-width
+{
+    width: 100%;
+    height: 176px;
+    object-fit: fill;
+    border: 4px solid #f26c4f;
+}
+.w-70
+{
+    width: 70%;
 }
